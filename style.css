@@ -1,0 +1,163 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3 {
+    margin-top: px;
+    margin-bottom: 35px;
+}
+
+p {
+    font-size: 23px;
+    padding-bottom: 50px;
+}
+
+.fa {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.fa:visited {
+    color: #474e5d;
+}
+
+.fa:hover {
+    color: #1abc9c;
+    text-shadow: .5px 1px 0.5px #127360;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+}
+
+a .fa{
+    color: #474e5d;
+}
+
+.img-circle {
+    display: inline;
+    width: 20%;
+    min-width: 180px;
+}    
+.background-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.background-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.background-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.background-4 { 
+    background-color: #2f2f2f; /* black */
+    color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.container-fluid:not(.background-4) {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+}
+
+.menu-button {
+    border: none;
+}
+
+.navbar-nav li a {
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+}
+
+    .navbar-default:hover {
+        box-shadow: 0px .1px 20px black;
+        transition: 0.1s;
+        -webkit-transition: 0.1s;
+        -moz-transition: 0.1s;
+    }
+
+@media screen and (max-width: 765px) {
+    .navbar-default {
+        opacity: .7;
+        border-color: #AA0000;
+        border-radius: 0;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+    }
+
+    .navbar-nav li a:hover {
+    font-size: 150%;
+    font-weight: bold;
+    color: #1abc9c !important;
+    transition: .1s;
+    }
+
+    .navbar:hover {
+        box-shadow: 0px .1px 20px black;
+        opacity: 1;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+    }
+    .navbar-default .navbar-brand,
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+    }
+
+    .navbar-default .navbar-nav > li > a {
+    }
+
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #FFF;
+    }
+
+    .navbar-default .navbar-text {
+        color: #FFF;
+    }
+
+    .navbar-default .navbar-toggle {
+    }
+
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #F8F8F8;
+    }
+
+    /*hamburger icon*/
+    .navbar-default .navbar-toggle .icon-bar {
+    }
+}
+/*OVERRIDE BOOTSTRAP*/
+
+
+
+
+
+
