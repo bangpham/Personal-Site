@@ -2,6 +2,33 @@ body,h1,h2,h3,h4,h5,h6 {
     font-family: "Lato", sans-serif;
 }
 
+.type-animation {
+    width: 310px;
+    margin-right: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: .15em solid orange; /* blinking cursor */
+    animation: type 1.5s steps(20, end), blink-caret .80s step-end infinite;
+    color: #777;
+}
+
+@keyframes type {
+    from {
+        width: 0 
+    } to {
+        width: 310px
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent 
+    } 50% {
+        border-color: orange;
+    }
+}
+
 h1, h2, h3 {
     margin-top: px;
     margin-bottom: 35px;
@@ -23,7 +50,7 @@ p {
 }
 
 .fa:hover {
-    color: #1abc9c;
+    color: #3498DB;
     text-shadow: .5px 1px 0.5px #127360;
     transition: 0.1s;
     -webkit-transition: 0.1s;
@@ -40,21 +67,24 @@ a .fa{
     min-width: 180px;
 }    
 .background-1 { 
-    background-color: #1abc9c; /* Green */
+    /* Main Theme */
+    background-color: #D1D1D1; 
     color: #ffffff;
 }
 
 .background-2 { 
-    background-color: #474e5d; /* Dark Blue */
+     /* Cooler */
+    background-color: #22313F;
     color: #ffffff;
 }
 .background-3 { 
-    background-color: #ffffff; /* White */
+     /* White */
+    background-color: #ffffff;
     color: #555555;
 }
-
+    /* dark */
 .background-4 { 
-    background-color: #2f2f2f; /* black */
+    background-color: #2f2f2f;
     color: #ffffff;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -109,7 +139,7 @@ a .fa{
     .navbar-nav li a:hover {
     font-size: 150%;
     font-weight: bold;
-    color: #1abc9c !important;
+    color: #3498DB !important;
     transition: .1s;
     }
 
